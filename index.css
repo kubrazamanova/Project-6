@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+  padding: 268px 135px 299px 135px;
+  min-height: 100vh;
+  background: #fdf0e9;
+}
+
+.container .box-1 h1 {
+  margin-bottom: 20px;
+  color: var(--Text_Dark_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.container .box-1 h2 {
+    margin-bottom: 26px;
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+.container .box-1 span {
+    display: block;
+    margin-bottom: 26px;
+  width: 470px;
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.container .box-1 ul li {
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+
+.container .box-1 ul svg {
+    margin-right: 26px;
+}
+.container .box-1 .svg {
+    display: flex;
+    margin-left: 16px;
+
+}
+
+.container .box-1 .image{
+    width: 470px;
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+}
+
