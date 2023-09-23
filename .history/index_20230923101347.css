@@ -27,7 +27,6 @@
 }
 
 .container .box-1 h2 {
-  width: 397px;
   margin-bottom: 26px;
   color: var(--Text_Dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
@@ -55,15 +54,17 @@
 .container .box-1 ul li {
   list-style-type: none;
   margin-bottom: 16px;
-  display: flex;
-  align-items: center;
 }
 
 .container .box-1 ul svg {
   margin-right: 26px;
 }
+.container .box-1 .svg {
+  display: flex;
+  margin-left: 16px;
+}
 
-.container .box-1 .image img {
+.container .box-1 .image {
   width: 470px;
-  height: 290px;
+  background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
 }
